@@ -1,4 +1,4 @@
-\# Proton VPN Port Forwarding for qBittorrent
+# Proton VPN Port Forwarding for qBittorrent
 
 
 
@@ -6,23 +6,23 @@ A lightweight Python automation script for Windows that retrieves the forwarded 
 
 
 
-\## 🚀 Features
+## 🚀 Features
 
-\- Automatic Port Retrieval: Uses NAT-PMP to talk directly to the Proton VPN gateway.
+- Automatic Port Retrieval: Uses NAT-PMP to talk directly to the Proton VPN gateway.
 
-\- qBittorrent Integration: Updates the listening port via the Web API instantly.
+- qBittorrent Integration: Updates the listening port via the Web API instantly.
 
-\- Persistent Heartbeat: Keeps the port alive by renewing the lease every 45 seconds.
+- Persistent Heartbeat: Keeps the port alive by renewing the lease every 45 seconds.
 
-\- Silent Operation: Can be run as a .pyw file to stay hidden in the background.
-
-
-
-\## 🛠 Setup
+- Silent Operation: Can be run as a .pyw file to stay hidden in the background.
 
 
 
-\### 1. qBittorrent Configuration
+## 🛠 Setup
+
+
+
+### 1. qBittorrent Configuration
 
 To allow the script to communicate with qBittorrent:
 
@@ -38,11 +38,12 @@ To allow the script to communicate with qBittorrent:
 
 
 
-\### 2. Installation
+### 2. Installation
 
 Clone this repository and install the dependencies:
 
 
-
+```bash
 pip install -r requirements.txt
+```
 
